@@ -1,8 +1,11 @@
-1. The most fast way to run the code is 
-using intellij to open the current project.
+1. Install JDK 8 or JDK 8 above.
 
-2. Building the project with gradle. (intellij with gradle default)
+2. Linux system 
+   git clone https://github.com/QianBinPiao/EluvioChallange.git
+   cd EluvioChallange
+   ./gradlew run --args="./sample"
+   
+   # please replace ./sample path with your test data folder. The double 
 
-3. set the samples folder path sampleFilesFolderPath variable in SuffixArrayBinary class.
-
-4. run the static main function.
+3. Windows system
+   ./gradlew.bat run --args="./sample"

@@ -189,9 +189,8 @@ public class SuffixArrayBinary {
 
     public static void main(String[] args) throws IOException {
 
-        String sampleFilesFolderPath = "D:\\algorithm\\CodeChallange\\sample";
+        File dir = new File(args[0]);
 
-        File dir = new File(sampleFilesFolderPath);
         ArrayList<byte[]> bytesList = new ArrayList<>();
         File[] readFiles = dir.listFiles();
         for (File eachFile : readFiles) {

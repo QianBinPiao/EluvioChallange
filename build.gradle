@@ -1,5 +1,16 @@
 plugins {
     id 'java'
+    id 'application'
+}
+
+apply plugin : "java"
+apply plugin : "application"
+ext {
+    javaMainClass = "challenge2.SuffixArrayBinary"
+}
+
+application {
+    mainClassName = javaMainClass
 }
 
 group 'org.qianbin'
