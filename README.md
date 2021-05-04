@@ -5,7 +5,8 @@
    cd EluvioChallange
    ./gradlew run --args="./sample"
    
-   # please replace ./sample path with your test data folder. The double 
+   # please replace ./sample path with your test data folder. 
+   # path must contain Quote as example shows.
 
 3. Windows system
    ./gradlew.bat run --args="./sample"
